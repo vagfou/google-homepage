@@ -76,10 +76,12 @@ ul a:hover{
     width: 20px;
     height: 20px;
     text-align: center;
+    opacity: 0.55;
 }
 
 #lens {
     margin: 12px;
+    opacity: 0.55;
 }
 
 input {
@@ -133,3 +135,36 @@ input {
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: rgba(223, 225, 229, 0);
 }
+
+
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom:0;
+}
+
+.footer {
+    background-color: rgba(0,0,0,0.05);
+    padding: 10px 15px;
+    color:rgba(0, 0, 0, 0.60);
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    font-size: 14px;
+}
+
+.footer p{
+    margin: 5px;
+}
+
+.footer div ul li a {
+    font-size:14px;
+    color:rgba(0, 0, 0, 0.55); 
+    margin-right: 10px;
+}
+
+#footer-links {   
+    display: flex;
+    justify-content: space-between
+}
+
