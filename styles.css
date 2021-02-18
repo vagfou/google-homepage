@@ -46,14 +46,36 @@ body {
 }
 
 
-li {
-    display: inline;
+ul {
+    display: inline-flex;
     list-style-type: none;
+    margin: 20px auto;
+    
 }
 
-li a {
+ul a {
     padding: 15px;
     text-decoration: none;
+    color: black;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+#login a{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 9px 23px;
+    margin-right: 9px;
+}
+
+#apps {
+    width: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 #lens {
