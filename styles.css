@@ -161,10 +161,13 @@ footer {
     font-size:14px;
     color:rgba(0, 0, 0, 0.55); 
     margin-right: 10px;
+
 }
 
 #footer-links {   
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    text-align: left;
+    
 }
 
